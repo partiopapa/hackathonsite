@@ -47,6 +47,10 @@ body{
 	opacity: 0;
 }
 
+.shader2{
+	background-color: #b7b82b !important
+}
+
 
 .project-name{
 	font-size: 7.4em;
@@ -57,4 +61,9 @@ body{
 #pakki{
 	background-image:url('img/pakki.jpg');
 	background-size: cover; 
+}
+
+#retkiloki{
+	background-image:url('img/retkiloki.png');
+	background-size: cover;
 }
