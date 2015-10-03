@@ -4,18 +4,19 @@
 	<title> Partiohackhaton </title>
 	<meta charset="utf-8">
 	<script src="jquery-1.11.3.min.js"></script>
-	
+	<script src="other.js"></script>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="custom1.css" rel="stylesheet">
 	<link href="custom2.css" rel="stylesheet">
+
 </head>
 <body>
 	
 
 	<!-- NAVBAR -->
-
-	<nav class="navbar navbar-default">
+ 
+        <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -27,32 +28,43 @@
       </button>
       <a class="navbar-brand" href="index.html">Partiohackathon</a>
     </div>
-
+ 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    	<ul class="nav navbar-nav">
-        	<li class="active"><a href="info.html">Mitä?<span class="sr-only">(current)</span></a></li>
-         	<li class="dropdown">
-	          	<a href="Projektit/projektit.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Projektit <span class="caret"></span></a>
-   			       	<ul class="dropdown-menu">
-            			<li><a  href="Projektit/projektit2014.html"> 2014 </a></li>
-            			<li><a  href="Projektit/projektit2015.html"> 2015 </a></li>
-        			</ul>
-       		</li>
-       <li><a href="ittmk.html">IT-Toimikunta</a></li>  
-   	</ul>
-    
+        <ul class="nav navbar-nav">
+                <li class="active"><a href="#mita">Mitä?<span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Projektit <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                <li><a  href="#2015"> 2015 </a></li>
+                                <li><a  href="#2014"> 2014 </a></li>
+                                </ul>
+                </li>
+       <li><a href="#ittmk">IT-Toimikunta</a></li>  
+        </ul>
+   
    </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 	        <!-- HEADER -->
         
-        <div class="jumbotron">
-                <div class="container">
-                        <h1>Partiohackhaton</h1>       
+               <div id="mita" class="container">
+                        <h1>Mikä on Partiohackhaton?</h1>
+                        <p class="description">Palasin juuri uudesta koulustani, sain tänään tietää, että minun ei tarvitse osallistua ollenkaan ruotsin kielen tunneille, sillä kielitaitoni on niin vahva! Jee, tosi hienoa, saan skipattua kuulemma koko kurssin! Asuin vuonna -98 Ruotsissa ja opiskelin ruotsin kieltä Uppsalan yliopistossa, joten minun ei tarvitse käydä perusasioita enää läpi. Sama juttu englannin kielessä, opettelen ainoastaan bisnes-sanastoa.
+
+						Minusta onkin tulossa uusi jymyjuttu syyskuun Hymy-lehteen ensi viikolla. Minusta otettiin Playboy-koekuvat vähän aikaa sitten, ja ne lähetetään Amerikan Playboylle tarjolle. Kuvat ovat ”minun henkisiäni” – ne on toteutettu ”karkkimaassa” ja Barbie-tyylisesti. Tapasimme sisareni Julian kanssa suomalaisen Playboy-kuvaaja Jarmo Pohjaniemen Miamissa vuonna 2004 ja hän lähetteli minulle myös paljon meiliä. Hän oli erittäin kiinnostunut meistä molemmista. Muistan että hän kehui meitä kauniiksi tytöiksi, mutta painoa olisi pitänyt kuulemma pudottaa.
+						 </p>      
                 </div>
-        </div>
+    	<div class="container">
+    		<h1>Projektit</h1>
+    		<h2 id="2015"> 2015</h2>
+    			<div class="project-box col-md-6"></div>
+    			<div class="project-box col-md-6"></div>
+    			<div class="project-box col-md-6"></div>
+    			<div class="project-box col-md-6"></div>
+
+    	</div>
 	<script src="js/bootstrap.min.js"></script>
 
 </body>
