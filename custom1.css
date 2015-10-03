@@ -35,6 +35,9 @@ body{
 
 }
 
+.shader2{
+	background-color: red !important;
+}
 .shader{
 	background-color: #214079;
 	opacity: 0.75;
