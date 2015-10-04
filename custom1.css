@@ -71,6 +71,20 @@ body{
 	line-height: 280px;
 }
 
+@media (max-width: 620px){
+	.container h1{
+		font-size: 5em;
+	}
+
+	.container h2{font-size: 3em}
+
+	.description{font-size: 1em;}
+	
+	.project-name{
+		font-size: 3em;
+	}
+}
+
 #pakki{
 	background-image:url('img/pakki.jpg');
 	background-size: cover; 
