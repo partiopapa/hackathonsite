@@ -1,5 +1,7 @@
 body{
 	background-color: #efefef;
+	background-image:url(img/headerimage.jpg);
+	transition: background 0.5s linear;
 }
 
 .navbar{
