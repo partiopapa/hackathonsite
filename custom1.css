@@ -71,6 +71,12 @@ body{
 	line-height: 280px;
 }
 
+.project-name-smaller{
+	font-size: 6.4em;
+	color:#fff;
+	line-height: 280px;
+}
+
 @media (max-width: 620px){
 	.container h1{
 		font-size: 5em;
@@ -93,4 +99,9 @@ body{
 #retkiloki{
 	background-image:url('img/retkiloki.png');
 	background-size: cover;
+}
+
+#leikit{
+	background-image:url('img/leikit.png');
+	background-size: cover; 
 }
